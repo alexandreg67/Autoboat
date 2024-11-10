@@ -8,4 +8,20 @@ public abstract class Vehicle {
         this.kilometers = kilometers;
     }
 
+    public String getBrand() {
+        return this.brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public int getKilometers() {
+        return this.kilometers;
+    }
+
+    public void setKilometers(int kilometers) {
+        this.kilometers = kilometers;
+    }
+
 }
